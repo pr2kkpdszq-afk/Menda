@@ -1,9 +1,20 @@
 {
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "db:push": "drizzle-kit push"
+  },
   "dependencies": {
+    "@types/express-session": "^1.18.2",
+    "@types/passport-local": "^1.0.38",
+    "@types/pg": "^8.20.0",
     "dotenv": "^17.4.1",
     "drizzle-orm": "^0.45.2",
+    "drizzle-zod": "^0.8.3",
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
     "pg": "^8.20.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
